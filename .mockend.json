@@ -1,14 +1,8 @@
 {
   "Post": {
     "title": { "string": {} },
-    "dateCreated": { "dateTime": {
-      "min": "2010-01-01T00:00:00Z",
-      "max": "2020-12-31T23:59:59Z"
-    } },
-    "stars": { "int": { 
-      "min": 0, 
-      "max": 5 
-    } },
-    "body": { "string": {} }
+    "dateCreated": { "dateTime": { "min": "2010-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z" } },
+    "stars": { "int": { "min": 0, "max": 5 } },
+    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } }
   }
 }
